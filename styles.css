@@ -1,0 +1,70 @@
+body {
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+}
+
+img {
+    width: 100px;
+}
+
+h1 {
+    margin: 0;
+}
+
+#header {
+    background-repeat: no-repeat;
+    background-size: cover;   
+    background-image: url("images/not.gif");
+    color: black;
+    text-align: center;
+    margin: 0px;
+    height: 400px;
+    padding: 1rem 1rem 10rem;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+#sightseeing {
+    background-color: #eff6e0;  
+    padding: 1rem; 
+}
+
+#items {
+    position: inherit;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 1rem;
+}
+
+#item {
+    padding: 1rem 1rem 0 1rem;
+    flex-basis: 33%;
+    align-items: stretch;
+}
+
+.item_image {
+    border-radius: 50%;
+    border: 3px solid #1a759f;
+}
+
+.youtub-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#youtube {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+    padding: 2rem;
+    background-color: #eff6e0;   
+}
